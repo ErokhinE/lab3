@@ -1,5 +1,5 @@
 var clock = document.getElementById('clock');
-
+ 
 function Timer() {
     var time = new Date();
     var h = (time.getHours() % 24).toString();
